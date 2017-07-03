@@ -376,8 +376,20 @@ height: 140px; }
 }
 
 @media (max-width: 576px) {
+  .display-3 {
+    font-size: 200%;
+  }
+}
+@media (max-width: 576px) {
+  .btn-main {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
   #about-header {
-    padding-top: 15%;
+    margin-top:5%;
+    padding-top: 20%;
   }
 }
 
@@ -420,9 +432,9 @@ height: 140px; }
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .display-3 {
-    font-size: 325%;
+    font-size: 315%;
   }
 }
 
