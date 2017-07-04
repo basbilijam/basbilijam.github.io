@@ -7,7 +7,7 @@ $(document).ready(function(){
   });
 
 // collapse navbar after link is clicked
-$(".navbar-nav a").click(function(event) {
+$(".nav-item").click(function(event) {
    if (!$(this).parent().hasClass('dropdown'))
        $(".navbar-collapse").collapse('hide');
   });

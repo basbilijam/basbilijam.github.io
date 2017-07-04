@@ -331,18 +331,25 @@ hr {
 @media (max-width: 576px) {
 .navbar-brand {
   margin:0 auto;
+  height:50px
   }
 }
 
 @media (max-width: 576px) {
 .navbar {
-height: 140px; }
+height: 125px; }
+}
+
+@media (max-width: 576px) {
+#logo {
+height: 55px!important; }
 }
 
 @media (max-width: 576px) {
 .navbar-toggler {
-  left: 30%;
-  top: 110%;
+  margin: 0 auto;
+  left: 28%;
+  top: 132.5%;
   position: absolute;
   }
 }
